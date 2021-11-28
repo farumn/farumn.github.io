@@ -99,12 +99,16 @@ footer .love {
 
 /* For Smartphone */
 @media only screen and (max-width: 460px) {
+    .contact img.logo-social_media {
+        display: inline-block;
+        width: 60px;
+    }
+    
     hr {
         width: 100px;
         border-top: 3px solid rgb(13,110,253);
     }
     
-
     footer p{
         font-size: 12px;
     }
