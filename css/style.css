@@ -59,8 +59,7 @@ h4 {
     border-top: 3px solid rgb(255, 255, 255);
 }
 
-.portfolio img.logo-portfolio,
-.contact img.logo-social_media {
+.portfolio img.logo-portfolio {
     display: inline-block;
     width: 100px;
     border-radius: 20%;
@@ -72,6 +71,11 @@ h4 {
 
 .contact hr {
     border-top: 3px solid rgb(255, 255, 255); 
+}
+
+.contact img.logo-social_media {
+    display: inline-block;
+    width: 80px;
 }
 
 .contact img.br {
