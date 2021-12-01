@@ -13,8 +13,33 @@
     <!-- ============= -->
 
     <title>Portfolio | Muhammad Faturrahman</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
   </head>
-  <body>
+  <body id="home" data-bs-spy="scroll" data-bs-target="#scrollNav" tabindex="0">
+
+    <!-- Navbar -->
+    <nav id="scrollNav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top flex-wrap ps-3">
+      <div class="container-fluid"></div>
+        <a class="navbar-brand scrollPage" href="#home">
+          <img src="img/logo/logo@white.png" alt="Logo Faruman" class="logo">
+          <b>Faruman</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills navbar-nav me-auto">
+            <li class="nav-item"><a href="#home" class="nav-link scrollPage">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link scrollPage" >&nbsp;&nbsp;About&nbsp;&nbsp;</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link scrollPage">&nbsp;&nbsp;Skills&nbsp;&nbsp;</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link scrollPage">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ====== -->
+
     <!-- Jumbotron -->
     <div class="jumbotron text-center">
       <div class="py-5 bg-primary">
@@ -54,7 +79,7 @@
     <!-- ===== -->
 
     <!-- Portfolio -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="skills">
       <div class="container-fluid mt-md-5 bg-primary py-5">
         <div class="row">
           <div class="col-sm-12 text-center">
@@ -127,6 +152,8 @@
 
     <!-- Script -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
     <!-- ====== -->
   </body>
 </html>
