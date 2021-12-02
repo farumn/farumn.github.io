@@ -1,3 +1,4 @@
+alert("Hello\nHow are you?");
 if ($(window).width() >= 992){
     $('body').attr("data-bs-offset","90"); 
 }
